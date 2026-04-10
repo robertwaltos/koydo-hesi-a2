@@ -1,0 +1,45 @@
+// HESI A2 Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM166",
+  slug: "hesi-a2",
+  name: "HESI A2",
+  fullName: "HESI Admission Assessment",
+  alias: "HESI Admission Assessment",
+  family: "HESI",
+  category: "Admissions",
+  subcategory: "Nursing school admissions",
+  country: "United States",
+  region: "North America",
+  languages: ["English"],
+  estimatedAnnualTakers: "high",
+  testingWindow: "Year-round",
+  schedulePattern: "Continuous",
+  ageGroup: "18-35",
+  targetUser: "Nursing applicant",
+  delivery: "Computer-based",
+  questionTypes: ["MCQ"],
+  adaptivity: "Linear",
+  sections: "Subject modules",
+  scoringMode: "Scaled",
+  essayOrSpeaking: "No",
+  ipRisk: "High",
+  contentReuse: "nursing_admissions",
+  uiEngine: "timed_objective",
+  monetizationPotential: "Medium",
+  tier: "Tier 6",
+  launchWave: "Wave 8",
+  themeColor: "#1E40AF",
+  themeColorDark: "#1E3A8A",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;

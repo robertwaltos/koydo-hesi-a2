@@ -1,0 +1,5 @@
+Initial release of Koydo HESI A2 Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration
